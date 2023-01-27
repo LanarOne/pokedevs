@@ -31,3 +31,18 @@ form{
 input{
   width: 5rem;
 }
+.characCard{
+  width: 40%;
+  border: 1px dashed midnightblue;
+  padding: .5rem;
+  background-color: lightsteelblue;
+  border-radius : 2rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+.characCard img{
+  width: 100%;
+}
+.characCard button{
+  margin: .5rem;
+}

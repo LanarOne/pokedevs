@@ -76,20 +76,17 @@ const Test2 = () => {
         const newStudents = [...students];
         const modifiedStudent = newStudents.filter((student) => student.id == e);
 
-        // modifiedStudent.slice(0,5)
-        setStudentId(parseFloat(modifiedStudent[0].id));
+        setStudentId(modifiedStudent[0].id);
         setStudentName(modifiedStudent[0].name);
-        setStudentHtml(parseFloat(modifiedStudent[0].html));
-        setStudentCss(parseFloat(modifiedStudent[0].css));
-        setStudentJs(parseFloat(modifiedStudent[0].js));
+        setStudentHtml(modifiedStudent[0].html);
+        setStudentCss(modifiedStudent[0].css);
+        setStudentJs(modifiedStudent[0].js);
 
         modifiedStudent.id = studentId
         modifiedStudent.name = studentName
         modifiedStudent.html = studentHtml
         modifiedStudent.css = studentCss
         modifiedStudent.js = students
-        // newStudents.push(modifiedStudent)
-        // setStudents(newStudents)
         console.log(modifiedStudent);
     }
     return (
@@ -139,7 +136,7 @@ const Test2 = () => {
                     {/*</form>*/}
             </section>
             <section>
-                <form action="" onSubmit={(e)=>{ e.preventDefault(); updateStudent(studentId)}}>
+                <form action="src" onSubmit={(e)=>{ e.preventDefault(); updateStudent(studentId)}}>
                     <label htmlFor="">ID</label>
                     <input type="number" required value={studentId}/>
                     <label htmlFor="">Name</label>

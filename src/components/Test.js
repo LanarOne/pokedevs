@@ -38,7 +38,7 @@ const Test = () => {
                 </button>
             </section>
             <h2>Show value</h2>
-            <form action="" onSubmit={showValueInput}>
+            <form action="src" onSubmit={showValueInput}>
                 <input type="text" ref={message}/>
                 <input type="submit"/>
             </form>
