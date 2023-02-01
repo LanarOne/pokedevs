@@ -1,4 +1,5 @@
 import React, {useRef, useState} from 'react';
+import Nav from "./Nav";
 
 const Test = () => {
 
@@ -27,6 +28,7 @@ const Test = () => {
     };
     return (
         <div>
+            <Nav/>
             <h1>Page test</h1>
             <section>
                 <h2>Décompte</h2>

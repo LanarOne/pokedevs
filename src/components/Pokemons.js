@@ -7,7 +7,7 @@ const PokemonsDisplay = () => {
 
     const [pokemons, setPokemons] = useState([]);
     useEffect((e)=>{
-        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/151').then((apiPokemon)=>setPokemons(apiPokemon.data)).catch((e)=>console.error(e));
+        axios.get('https://pokebuildapi.fr/api/v1/pokemon/limit/6fv').then((apiPokemon)=>setPokemons(apiPokemon.data)).catch((e)=>console.error(e));
     })
     return(
         <div>

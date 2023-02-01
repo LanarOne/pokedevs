@@ -9,7 +9,7 @@ import Error404 from "./components/Error404";
 import Test from "./components/Test";
 import Test2 from "./components/Test2";
 import Test3 from "./components/test3";
-
+import Test4 from "./components/Test4";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -21,6 +21,7 @@ root.render(
               <Route path='/test' element = {<Test/>}/>
               <Route path='/test2' element={<Test2/>}/>
               <Route path='/test3' element={<Test3/>}/>
+              <Route path='/test4' element={<Test4/>}/>
               <Route path='*' element = {<Error404/>}/>
           </Routes>
       </BrowserRouter>

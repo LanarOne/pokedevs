@@ -31,6 +31,11 @@ form{
 input{
   width: 5rem;
 }
+h1,
+h2,
+h3{
+  text-align: center;
+}
 .characCard{
   width: 40%;
   border: 1px dashed midnightblue;
@@ -44,5 +49,44 @@ input{
   width: 100%;
 }
 .characCard button{
+  margin: .5rem;
+}
+.pokeImg img{
+  width: 100%;
+}
+.blocType{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.blocType img{
+  width: 3rem;
+}
+.pokeCard{
+  width: 40%;
+  border: 1px solid crimson;
+  border-radius: 2rem;
+  margin: 1rem auto;
+  background-color: darkturquoise;
+  text-align: center;
+}
+.pokeLike{
+  text-align: center;
+}
+.firstBtn{
+  border : 3px ridge midnightblue;
+  border-radius: .5rem;
+  background-color: hotpink;
+  width: 7rem;
+  height: 3rem;
+  margin: .5rem;
+}
+.secondBtn{
+  border: 3px ridge hotpink;
+  border-radius: .5rem;
+  background-color: midnightblue;
+  width: 7rem;
+  height: 3rem;
+  color: aliceblue;
   margin: .5rem;
 }

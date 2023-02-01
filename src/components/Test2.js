@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Nav from "./Nav";
 
 const Test2 = () => {
 
@@ -90,7 +91,8 @@ const Test2 = () => {
         console.log(modifiedStudent);
     }
     return (
-        <div>s
+        <div>
+            <Nav/>
             <section>
                 <h1>Test 2</h1>
                 <table>
